@@ -31,3 +31,182 @@ footer{
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
+
+body{
+	font-family: Helvetica, Arial, Sans-Serif;
+	color:rgb(102,102,102);
+}
+#filArianne {
+	margin: 20px 0 20px 0;
+	font-size: 0.7em;
+}
+#filArianne:hover {
+	color:rgb(0,0,0);
+	cursor:pointer;
+}
+#image img{
+	width: 95%;
+}
+#otherobj{
+	background-color:rgb(240,240,240);
+	width: 95%;
+	height: 70px;
+}
+#otherobj img{
+	margin-top: 5px;
+	margin-left: 15px;
+}
+#eco{
+	float: right;
+	position: absolute;
+	top:175px;
+	right: 0;
+	font-size: 0.8em;
+}
+.up{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+#titre{
+	color:black;
+	font-size: 1.7em;
+	margin-bottom: 10px;
+}
+#description{
+
+}
+#prix{
+	margin-top: 75px;
+	float: right;
+	display: block;
+	font-size: 3em;
+}
+#color{
+	margin: 20px 0;
+}
+#garantie{
+	margin-top: 120px;
+}
+.orange{
+	color:#e75113;
+	font-weight: bold;
+}
+#call{
+	font-size: 1.2em;
+	height: 40px;width: 200px;
+	color:#343434;
+	float: right;
+	margin-top: 75px;
+	letter-spacing:2px;
+	font-weight: bold;
+	-webkit-box-shadow: 0px 0px 10px #343434;
+	box-shadow: 0px 0px 10px #343434;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #656565;
+	background:#e98020;
+	background: -webkit-gradient(linear, left top, left bottom, from(#e98020), to(#e75113));
+	background: -webkit-linear-gradient(#e98020, #e75113);
+	background: linear-gradient(#e98020, #e75113); 
+	cursor: pointer;
+}
+#cart{
+	color:white;
+	background-color: rgb(102,102,102);
+	position: fixed;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	z-index: 100;
+}
+#cart input{
+	margin-top: 10px;
+	float: right;
+	margin-right: 20px;
+}
+u{
+	float: right;
+	margin-right: 50px;
+	color:#e75113;
+	font-size:1.5em;
+	cursor: pointer;
+	margin-top: 12px;
+}
+#cart img{
+	height: 30px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+.pointer{
+	cursor: pointer;
+}
+.barre{
+    text-decoration: line-through;
+    font-size: 0.6em;
+}
+#navdescription{
+	margin-top: 50px;
+}
+.sousmenu{
+	margin-left:100px;
+}
+input[type="color"]{
+	width: 50px;
+	margin-top: 10px;
+}
+input[type="text"]{
+	width: 20px;
+
+}
+#valider{
+	float:right;
+	margin-top: 10px;
+}
+#inputprix{
+	margin-top: 10px;
+}
+.sousmenu span:nth-child(n){
+	margin-left: 30px;
+}
+.sousmenu span:nth-child(4){
+	font-weight: bold;
+	cursor: pointer;
+}
+#plus{
+	margin: 0;
+	font-weight: bold;
+	cursor: pointer;
+}
+#stars_3{
+	margin-top: 5px;
+}
+b{
+	margin-left: 30px;
+}
+#form1{
+	width: 350px;
+}
+#form2{
+	width: 350px;
+	height: 150px;
+}
+#cancel{
+	margin-bottom: 50px;
+	margin-left: 180px;
+}
+#valid{
+	margin-bottom: 50px;
+	width: 100px;
+}
+#dernier{
+	margin-top: 5px;
+}
+#social{
+	margin-top: 170px;
+}
+#social img{
+	height: 30px;
+	cursor: pointer;
+	border: 2px solid rgb(102,102,102);
+}

@@ -3,88 +3,174 @@
 <head>
 	<meta charset="UTF-8"/>
 	<title>Becquet</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/984_12_col.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header class="container_12"></header>
+	<div id="cart">
+		<img src="img/caddy.png">
+		Nombre d'objets dans le panier (<span class="orange" style="font-size:1.7em">3</span>)
+		<u>Login</u>
+		<input type="button" class="btn btn-success" value="Acceder au Panier">
+	</div>
 	<section class="container_12">
-		<div class="grid_4">
-			<div id="filArianne">Accueil > Boutis et jetés de lit > page 1</div>
+		<div class="grid_4 alpha">
+			<div id="filArianne">Accueil > Boutis et jetés de lit > BOUTIS FLEURS AQUARELLE</div>
 		</div>
 		<div class="prefix_6 grid_2">
-			<select>
-				<option>option 1</option>
-			</select>
+			<img id="dernier" src="img/dernier.png">
 		</div>
 		<div class="clear"></div>
-		<div class="grid_8">
-			<img src="img/petit.jpg" data-zoom="img/grand.jpg" id="snipe">
-		</div>
-		<div class="grid_4">
-			<div>BOUTIS FLEURS AQUARELLE</div>
-			<div>Inspiration florale pour ce boutis qui n'en finit pas d'émerveiller par son décor aux effets d'aquarelle. Des larges fleurs, des couleurs éclatantes... on aime ce décor majestueux imaginé par Becquet et on se laisse aussi séduire par la douceur de son pur coton et le moelleux d'un garnissage 100% polyester.</div>
-			<div>44€92 59€90</div>
-			<div>
-				<img src="img/garantie.png">
-			</div>
-			<div>
-				<input type="button" value="SELECTIONNER">
+		<div id="image" class="grid_8 alpha">
+			<img src="img/petit/1.jpg" data-zoom="img/grand/1.jpg" id="snipe">
+			<div id="otherobj">
+				<img src="img/50px.png">
 			</div>
 		</div>
-		<div class="clear"></div>
-		<div class="grid_12">Description avancé</div>
-		<div class="clear"></div>
-		<hr>
+		<div class="grid_4 omega">
+			<div id="titre">BOUTIS FLEURS AQUARELLE</div>
+			<div id="description">
+				<ul>
+					<li>Lavage à 40°</li>
+					<li>Enveloppe 100% coton</li>
+					<li>Garnissage 100% polyester</li>
+					<li>Finition droite, avec double parement contrasté</li>
+				</ul>
+			</div>
+			<div id="eco"><span class="orange">Vous économisez: <span class="up">15€</span></span></div>
+			<div id="prix"><span class="orange">44€99</span> <span class="barre">59€99</span></div>
+			<div id="garantie">
+				Collection linge maison  <span class="orange">garantie 2 ans</span>
+			</div>
+			<div id="color">
+				<img class="pointer" src="img/previous.png">
+				<img src="img/ico/1.jpg">
+				<img src="img/ico/2.jpg">
+				<img src="img/ico/3.jpg">
+				<img src="img/ico/4.jpg">
+				<img class="pointer" src="img/next.png">
+			</div>
+			<div>
+				<input id="call" type="button" value="Ajouter au panier">
+			</div>
+			<div id="social">
+				<img src="img/twitter.png">
+				<img src="img/facebook.png">
+				<img src="img/google+.png">
+			</div>
+		</div>
 		<div class="clear"></div>
 		<div class="grid_12">
-			<ul>
-				<li>Un décor unique effet d'aquarelle</li>
-				<li>Boutis et ses coordonnés - inspiration florale</li>
-				<li>Lavage à 40°</li>
-				<li>Enveloppe 100% coton : douceur et résistance</li>
-				<li>Garnissage 100% polyester : confort moelleux</li>
-				<li>Finition droite, avec double parement contrasté</li>
-				<li>Dos uni lilas</li>
-				<li>Housse oreiller assortie, fermée au dos par glissière</li>
-				<li>Housse coussin assortie, fermée au dos par glissière</li>
-				<li>Trousse de toilette et peignoir forme kimono assortis sur becquet.fr</li>
-				<li>Coussin à recouvrir sur becquet.fr</li>
-			<ul>
-			Inspiration florale pour ce boutis qui n'en finit pas d'émerveiller par son décor aux effets d'aquarelle. Des larges fleurs, des couleurs éclatantes... on aime ce décor majestueux imaginé par Becquet et on se laisse aussi séduire par la douceur de son pur coton et le moelleux d'un garnissage 100% polyester.
-		</div>
-		<div class="clear"></div>
-		<div class="grid_12">Produits</div>
-		<div class="clear"></div>
-		<hr>
-		<div class="clear"></div>
-		<div class="grid_8">
-			<ul>
-				<li>Drap
-					<ul>
-						<li>150x150<input type="color"><input type="button" value="ADD"></li>
-						<li>150x150<input type="color"></li>
-						<li>150x150<input type="color"></li>
-					</ul>
-				</li>
-				<li>House</li>
-				<li>Taie</li>
+			<ul id="navdescription" class="nav nav-tabs">
+			  <li class="active" id="id1"><a href="javascrip:void(0)">Description</a></li>
+			  <li id="id2"><a href="javascrip:void(0)">Caractéristique technique</a></li>
+			  <li id="id3"><a href="javascrip:void(0)">Picto</a></li>
 			</ul>
+			<div id="content1">
+				Inspiration florale pour ce boutis qui n'en finit pas d'émerveiller par son décor aux effets d'aquarelle. Des larges fleurs, des couleurs éclatantes... on aime ce décor majestueux imaginé par Becquet et on se laisse aussi séduire par la douceur de son pur coton et le moelleux d'un garnissage 100% polyester.
+			</div>
+			<div id="content2">
+				<ul>
+					<li>Un décor unique effet d'aquarelle</li>
+					<li>Boutis et ses coordonnés - inspiration florale</li>
+					<li>Lavage à 40°</li>
+					<li>Enveloppe 100% coton : douceur et résistance</li>
+					<li>Garnissage 100% polyester : confort moelleux</li>
+					<li>Finition droite, avec double parement contrasté</li>
+					<li>Dos uni lilas</li>
+					<li>Housse oreiller assortie, fermée au dos par glissière</li>
+					<li>Housse coussin assortie, fermée au dos par glissière</li>
+					<li>Trousse de toilette et peignoir forme kimono assortis sur becquet.fr</li>
+					<li>Coussin à recouvrir sur becquet.fr</li>
+				<ul>
+			</div>
+			<div id="content3">
+				ALLO
+			</div>
+		</div>
+		<div class="clear"></div>
+			<ul id="navdescription" class="nav nav-tabs">
+			  <li class="active"><a href="#">Produits</a></li>
+			</ul>
+		<div class="clear"></div>
+		<div class="grid_8">
+		<div class="navbar">
+		  <div class="navbar-inner">
+		    <a class="brand" href="javascrip:void(0)">Drap</a>
+			    <ul class="nav">
+			      <li class="active"><a href="#">100x100</a></li>
+			      <li><a href="#">100x100</a></li>
+			      <li><a href="#">100x100</a></li>
+			    </ul>
+		  </div>
+		  <div class="navbar-inner sousmenu">
+		    <input type="color">
+		    <span id="referencelist">réf: 23543</span>
+		    <span id="prixlist">Prix: 55€</span>
+		    <span>-</span>
+		    <input type="text" id="inputprix" placeholder="0">
+		    <span id="plus">+</span>
+			<input id="valider" type="button" class="btn btn-success" value="Valider">
+		  </div>
+		  <div class="navbar-inner">
+		    <a class="brand" href="javascrip:void(0)">Housse</a>
+			    <ul class="nav">
+			      <li><a href="#">100x100</a></li>
+			      <li><a href="#">100x100</a></li>
+			      <li><a href="#">100x100</a></li>
+			    </ul>
+		  </div>
+		  <div class="navbar-inner">
+		    <a class="brand" href="javascrip:void(0)">Taie</a>
+			    <ul class="nav">
+			      <li><a href="#">50x50</a></li>
+			    </ul>
+		  </div>
+		</div>
 		</div>
 		<div class="grid_4">
 		</div>
 		<div class="clear"></div>
 		<div class="grid_4">
-			IDEES
+			<ul id="navdescription" class="nav nav-tabs">
+			  <li class="active"><a href="javascript:void(0)">Idées Complices</a></li>
+			</ul>
+			<img src="img/refonte.png">
 		</div>
 		<div class="grid_8">
-			COMMENTAIRES
+			<ul id="navdescription" class="nav nav-tabs">
+			  <li class="active"><a href="javascript:void(0)">L'avis des clients</a></li>
+			  <img id="stars_3" src="img/stars_3.png">
+			  |
+			  2 avis
+			</ul>
+			<img src="img/stars_25.png"><b>TITRE</b></br>
+			L'avis de TOM (75005), le mercredi 13 février 2013</br>
+			<i>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</i></br>
+			<hr>
+			<img src="img/stars_35.png"><b>TITRE</b></br>
+			L'avis de TOM (75005), le mercredi 13 février 2013</br>
+			 <i>Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</i></br></br>
+			 <input type="button" class="btn btn-success" value="Déposer un avis sur cet article">
+			</br></br>
+			Titre</br>
+			<input id="form1" type="text"></br>
+			Commentaire</br>
+			<input id="form2" type="text"></br>
+			<input id="cancel" type="button" class="btn btn-inverse" value="Annuler">
+			<input id="valid" type="button" class="btn btn-success" value="Valider">
 		</div>
 		<div class="clear"></div>
 		<div class="grid_12"></div>
 		<div class="clear"></div>
+			<ul id="navdescription" class="nav nav-tabs">
+			  <li class="active"><a href="#">Les Meilleures Ventes du Jour :</a></li>
+			</ul>
+		<img src="img/Best-Sale.png" style="margin-bottom:50px;">
 	</section>
-	<footer class="container_12"><footer>
+	<footer class="container_12"></footer>
 <script src="js/jquery.js"></script>
 <script src="js/jquery.snipe.min.js"></script>
 <script src="js/custom.js"></script>
