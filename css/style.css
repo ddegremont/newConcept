@@ -210,3 +210,38 @@ b{
 	cursor: pointer;
 	border: 2px solid rgb(102,102,102);
 }
+
+.arrow{
+	height: 50px;
+	width: 50px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 250px;
+	z-index: 150;
+}
+#right_arrow{
+	background-image: url('../img/right_arrow.png');
+	right: -50px;
+}
+#left_arrow{
+	background-image: url('../img/left_arrow.png');
+	left: -50px;
+}
+
+.ball{
+	height :15px;
+	width: 15px;
+	background-image: url('../img/ball.png');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 150;
+
+}
